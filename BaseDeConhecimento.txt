@@ -1,0 +1,20 @@
+Cliente: oi
+Chatbot: olá, como posso te ajudar?
+Cliente: tudo bem
+Chatbot: TUDO, como posso te ajudar?
+Cliente: Qual o tamanho medio de um brasileiro
+Chatbot: A altura média do homem brasileiro é de 1,73 m
+Cliente: Qual o tamanho medio de um russo
+Chatbot: A altura média dos homens russos é de 182,4 cm
+Cliente: qual melhor jogo do mundo
+Chatbot: undertale
+Cliente: qual e o nome completo do presidente do brasil
+Chatbot: luiz inacio lula da silva
+Cliente: 
+Chatbot: 
+Cliente: 
+Chatbot: 
+Cliente: 
+Chatbot: 
+Cliente: 
+Chatbot: 

@@ -1,0 +1,12 @@
+Cliente: tudo bem
+Chatbot: TUDO, como posso te ajudar?
+Cliente: Qual o tamanho medio de um ser humano
+Chatbot: isso depende, de qual região?(EX: russo, brasileiro...)
+Cliente: Qual o tamanho medio de um brasileiro
+Chatbot: A altura média do homem brasileiro é de 1,73 m...
+Cliente: Qual o tamanho medio de um russo
+Chatbot: A altura média dos homens russos é de 182,4 cm...
+Cliente: oi
+Cliente: oi
+Cliente: oi
+Cliente: brasileiro
