@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.caixa{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(174, 127, 0, 0.393);
+    color: white;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#box-formatacao{
+    border-radius: 900px 230px 900px 1000px;
+    padding: 50px;
+    box-sizing: border-box;
+    
+    background-image: url(https://media.tenor.com/U94DkrDstecAAAAM/67-angry-bird.gif);
+    background-size: 170px;
+    background-position: center;
+    border-radius: 15px;
+}
+#box-transparencia{
+    background-image: url(https://media1.tenor.com/m/FmYgrmA1cwYAAAAd/67-67-meme.gif);
+    background-size: 150px;
+    background-position: center;
+    border-radius: 1px;
+
+}
+#box-transparencia h1{
+background-color: rgba(0, 0, 0, 0.5);
+padding: 10px;
+width: 100%;
+border-bottom: 2px solid white;
+margin: 0;
+}
+#box-degrade{
+    background-image: url(https://media1.tenor.com/m/3HAuUhSuVw8AAAAC/67-67-meme.gif);
+    background-size: 150px;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 20px 30px 20px 20px rgba(01, 0, 2, 0.5);
+
+    background: radial-gradient( red, orange, yellow, rgb(44, 117, 44), green, blue, purple);
+}
+
+.texto-sombra{
+    text-shadow: 20px 30px 20px 20px rgba(01, 0, 2, 6.5);
+    font-size: 20px;
+
+}   
+#botao-transicao{
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: brown;
+    color:white;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+#botao-transicao:hover{
+    background-color: aqua;
+    border-radius: 25px;
+    transform: scale(1.2,1.2);
+}
+
+#box-animacao{
+    position: relative;
+    background-color: rgba(103, 74, 2, 0.641);
+    border-radius: 10px;
+    animation: animacao-flutuar 2s 1ms 5 alternate;
+}
+@keyframes animacao-flutuar{
+    from{
+        left: 0px;
+        top: 0px;
+        background-color: blueviolet;
+        border-radius: 10px;
+
+    }
+
+    to{
+        left: 200px;
+        top: 50px;
+        background-color: blue;
+        border-radius: 50%;
+    }
+}

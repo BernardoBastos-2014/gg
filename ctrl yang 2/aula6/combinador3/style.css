@@ -1,0 +1,10 @@
+.img_efeito:hover{
+    filter: grayscale(100%);
+    cursor: pointer;
+
+}
+.texto-livro::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(7, 7, 96);
+}

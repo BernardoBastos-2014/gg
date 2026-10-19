@@ -1,0 +1,15 @@
+#pessoa
+{
+    background-color: #2af5e3;
+    text-align: center;
+    width: 1100px;
+}
+#titulo
+{
+    color: red;
+}
+#proficao
+{
+    font-size: 60px;
+    font-style: italic;
+}

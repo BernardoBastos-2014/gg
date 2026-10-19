@@ -1,0 +1,17 @@
+img[src = "img/commun.jpg"]{
+    border-radius: 50%;
+    border: 3px solid red; 
+}
+a[href^="pasta1/"]{
+    color: orange;
+    font-weight: bold;
+}
+a[href$=".pdf"]{
+    color: red;
+    text-transform: uppercase;
+}
+a[href*="67"]{
+    color: green;
+    background-color: lightgreen;
+    padding: 5px;
+}
