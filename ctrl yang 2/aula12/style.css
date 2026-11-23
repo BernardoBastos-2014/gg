@@ -1,0 +1,130 @@
+/* Reset básico e tipografia */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px;
+    gap: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #f8fafc;
+    letter-spacing: 0.5px;
+}
+
+p {
+    font-size: 1.05rem;
+    color: #cbd5e1;
+}
+
+#numero {
+    font-size: 2.2rem;
+    color: #4ade80;
+    background-color: rgba(15, 23, 42, 0.6);
+    padding: 10px 24px;
+    border-radius: 12px;
+    border: 1px solid rgba(74, 222, 128, 0.25);
+}
+
+/* Botão principal de clique */
+/* Botão principal quadrado e maior */
+#botao\+ {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: 4px solid #38bdf8;
+    background-color: #0f172a;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+    transition: transform 0.1s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    margin: 8px 0;
+}
+
+#botao\+:hover {
+    border-color: #7dd3fc;
+    box-shadow: 0 14px 32px rgba(56, 189, 248, 0.35);
+    transform: scale(1.03);
+}
+
+#botao\+:active {
+    transform: scale(0.95);
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.55);
+}
+
+#imagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+/* Seção da loja */
+#loja {
+    width: 100%;
+    max-width: 440px;
+    background-color: rgba(15, 23, 42, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+#loja h2 {
+    font-size: 1.35rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #e2e8f0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+#loja button {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #3b82f6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, transform 0.1s ease;
+    text-align: left;
+}
+
+#loja button:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+}
+
+#loja button:active {
+    transform: translateY(0);
+}
+
+#loja button:disabled {
+    background-color: #334155;
+    color: #94a3b8;
+    cursor: not-allowed;
+    transform: none;
+}
